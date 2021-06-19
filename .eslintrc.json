@@ -1,0 +1,30 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "simple-import-sort"],
+
+  "env": {
+      "node": true,
+      "jest": true
+  },
+  "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended",
+      "prettier"
+  ],
+  "rules": {
+      "camelcase": "off",
+      "@typescript-eslint/camelcase": "off",
+      "@typescript-eslint/no-explicit-any": "off",
+      "@typescript-eslint/no-implicit-any": "off",
+      "@typescript-eslint/explicit-function-return-type": ["error"],
+      "simple-import-sort/exports": "error",
+      "simple-import-sort/imports": [
+          "error",
+          {
+              "groups": [["^\\u0000", "^@?\\w", "^", "^\\."]]
+          }
+      ]
+  }
+}
