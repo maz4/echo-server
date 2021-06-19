@@ -7,7 +7,7 @@
     "test": "jest",
     "test:coverage": "jest --watchAll=false --coverage",
     "start": "nodemon",
-    "server:start": "ts-node --project tsconfig.json ./index.ts",
+    "start:server": "ts-node --project tsconfig.json ./index.ts",
     "lint": "eslint . --ext .ts,.tsx --max-warnings 0",
     "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,scss,json}\"",
     "prettier:check": "pretty-quick --check",
@@ -23,6 +23,17 @@
     "url": "https://github.com/maz4/tokyo-booking-server/issues"
   },
   "homepage": "https://github.com/maz4/tokyo-booking-server#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "run-p -n --aggregate-output lint:fix test",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
   "devDependencies": {
     "@commitlint/config-conventional": "^12.1.4",
     "@types/config": "0.0.38",
