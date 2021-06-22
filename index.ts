@@ -1,4 +1,4 @@
-import app from './src/server';
+import app from './src/server/server';
 
 const PORT = 8080;
 

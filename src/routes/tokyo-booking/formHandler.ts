@@ -1,11 +1,11 @@
 import { Request, Response } from 'express';
 
 export function formHandler(req: Request, res: Response): void {
-    const data = req.body;
-    const transformedData = Object.entries(data);
+    const { body } = req;
+    const transformedData = Object.entries(body);
 
     if (transformedData.length === 0) {
-        res.send(data);
+        res.send(body);
         return;
     }
 
