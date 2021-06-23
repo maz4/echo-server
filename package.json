@@ -1,5 +1,5 @@
 {
-    "name": "tokyo-booking-server",
+    "name": "echo-server",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -15,14 +15,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/maz4/tokyo-booking-server.git"
+        "url": "git+https://github.com/maz4/echo-server.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/maz4/tokyo-booking-server/issues"
+        "url": "https://github.com/maz4/echo-server/issues"
     },
-    "homepage": "https://github.com/maz4/tokyo-booking-server#readme",
+    "homepage": "https://github.com/maz4/echo-server#readme",
     "husky": {
         "hooks": {
             "pre-commit": "run-p -n --aggregate-output lint:fix test",
