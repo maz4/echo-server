@@ -6,7 +6,7 @@ export default [
         offer: {
             title: 'Cozy nest for newlyweds',
             address: '"1069, 248"',
-            price: 21,
+            price: 2100,
             type: 'palace',
             rooms: 3,
             guests: 4,
@@ -33,7 +33,7 @@ export default [
         offer: {
             title: 'Small apartment near the park',
             address: '"509, 313"',
-            price: 66,
+            price: 6600,
             type: 'flat',
             rooms: 3,
             guests: 8,
@@ -60,7 +60,7 @@ export default [
         offer: {
             title: 'A bench in the park',
             address: '"383, 273"',
-            price: 41,
+            price: 4100,
             type: 'palace',
             rooms: 4,
             guests: 6,
@@ -87,7 +87,7 @@ export default [
         offer: {
             title: 'Imperial Palace in downtown Tokyo',
             address: '"969, 516"',
-            price: 29,
+            price: 2900,
             type: 'flat',
             rooms: 3,
             guests: 4,
@@ -114,7 +114,7 @@ export default [
         offer: {
             title: 'Sweetest attic',
             address: '"235, 415"',
-            price: 97,
+            price: 9700,
             type: 'palace',
             rooms: 3,
             guests: 6,
@@ -141,7 +141,7 @@ export default [
         offer: {
             title: 'Coffee lovers hangout',
             address: '"95, 476"',
-            price: 35,
+            price: 3500,
             type: 'house',
             rooms: 4,
             guests: 5,
@@ -167,7 +167,7 @@ export default [
         offer: {
             title: 'Clear hut',
             address: '"719, 612"',
-            price: 17,
+            price: 1700,
             type: 'flat',
             rooms: 1,
             guests: 9,
@@ -194,7 +194,7 @@ export default [
         offer: {
             title: 'Apartment in the center',
             address: '"317, 509"',
-            price: 34,
+            price: 3400,
             type: 'flat',
             rooms: 3,
             guests: 7,
@@ -221,7 +221,7 @@ export default [
         offer: {
             title: 'Quiet apartment near the subway',
             address: '"317, 509"',
-            price: 34,
+            price: 3400,
             type: 'flat',
             rooms: 2,
             guests: 3,
@@ -248,7 +248,7 @@ export default [
         offer: {
             title: 'Cute nest for Anime fans',
             address: '"317, 509"',
-            price: 34,
+            price: 3400,
             type: 'flat',
             rooms: 2,
             guests: 3,
